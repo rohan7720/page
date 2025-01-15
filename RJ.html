@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            display: flex;
+            max-width: 900px;
+            width: 100%;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .left-section {
+            flex: 1;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .right-section {
+            flex: 1;
+            background-color: #e4e4ff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #6a5af9;
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .logo img {
+            width: 30px;
+            margin-right: 10px;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .input-group {
+            margin-bottom: 15px;
+        }
+
+        .input-group label {
+            display: block;
+            font-size: 14px;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .forgot-password {
+            text-align: right;
+            font-size: 12px;
+            color: #6a5af9;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #6a5af9;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .btn-google {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            margin-top: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background: white;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .btn-google img {
+            width: 20px;
+            margin-right: 10px;
+        }
+
+        .signup {
+            text-align: center;
+            font-size: 12px;
+            margin-top: 20px;
+        }
+
+        .signup a {
+            color: #6a5af9;
+            text-decoration: none;
+        }
+
+        .illustration img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .illustration p {
+            margin-top: 20px;
+            font-size: 14px;
+            text-align: center;
+            color: #444;
+        }
+
+        .rj{
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <div class="logo">
+                <img src="./j1v94mkvdlpkjdm4fzlt.webp" alt="Tasky Logo"> Tasky
+            </div>
+            <h1>Welcome Back!</h1>
+            <p>Please enter login details below</p>
+
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter the email">
+            </div>
+
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter the Password">
+            </div>
+
+            <div class="forgot-password">Forgot password?</div>
+
+            <button class="btn">Sign in</button>
+
+            <div class="signup">Or continue</div>
+
+            <div class="btn-google">
+                <img src="./channels4_profile.jpg" alt="Google Logo"> Log in with Google
+            </div>
+
+            <div class="signup">
+                Don’t have an account? <a href="#">Sign Up</a>
+            </div>
+        </div>
+        <div class="right-section">
+            <div class="illustration">
+                <img src="./shared image (1).jpg" class="rj" alt="Illustration">
+                <p>Manage your task in an easy and more efficient way with Tasky...</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
